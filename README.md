@@ -1,2 +1,3 @@
-# BC3991CBA64BCFEF8B645947BC001124
-BC3991CBA64BCFEF8B645947BC001124
+Features of this Stage 
+The background of the project updates based on time.
+The blocks vanish on coming in contact with the slingshot.
