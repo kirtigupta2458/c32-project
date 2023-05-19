@@ -121,15 +121,13 @@ function draw() {
 
 }
 function mouseDragged(){
-  Matter.Body.setPosition(this.polygon,{x:mouseX,y:mouseY});
+  
 }
 function mouseReleased(){
-  slingShot.fly();
+  
 }
 function keyPressed(){
-  if(keyCode === 32){
-      slingShot.attach(this.polygon);
-  }
+  
 }
 async function getBackgroundImage(){
    var response = await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata");
@@ -139,12 +137,7 @@ async function getBackgroundImage(){
    var hour = datetime.slice(11, 13);
    //console.log(hour);
 
-   if (hour >= 06 && hour <= 18) {
-     bg = "images/light.jpg";
-   } else {
-     bg = "images/dark.jpg";
-   }
-
+   
    backgroundImg = loadImage(bg);
    console.log(backgroundImg);
 }
